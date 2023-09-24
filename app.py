@@ -1,6 +1,6 @@
 from flask import Flask
 from APP.namespace.namespace import apiblueprint
-from APP.rutas.endpoint import Productos
+from APP.rutas.endpoint import Endpoints
 
 app = Flask(__name__)
 
